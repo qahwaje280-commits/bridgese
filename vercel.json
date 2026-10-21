@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/", "has": [{ "type": "host", "value": "math2001.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/math" },
+    { "source": "/", "has": [{ "type": "host", "value": "earth2002.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/earth" },
+    { "source": "/", "has": [{ "type": "host", "value": "geo2003.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/geo" },
+    { "source": "/", "has": [{ "type": "host", "value": "eng2004.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/english" },
+    { "source": "/", "has": [{ "type": "host", "value": "fiqh2005.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/fiqh" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "math2001.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/math/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "earth2002.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/earth/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "geo2003.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/geo/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "eng2004.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/english/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "fiqh2005.askgateplus.com" }], "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/fiqh/$1" },
+    { "source": "/(.*)", "destination": "https://preview-chat-94fb96cf-54f9-4d02-9ce4-6ad3c4864dec.space-z.ai/$1" }
+  ]
+}
